@@ -274,7 +274,7 @@ function loadDoc() {
       
   }
   console.log(im_name.split('.')[0])
-  xhttp.open("GET", "http://nsdai.nsdevil.com:8910/LabelMeAnnotationTool/predictions/" +dir_name + "/" + im_name.split('.')[0] + ".txt", true);
+  xhttp.open("GET", "http://nsdai.nsdevil.com/labelmeserver/predictions/" +dir_name + "/" + im_name.split('.')[0] + ".txt", true);
   
   xhttp.send();
   
